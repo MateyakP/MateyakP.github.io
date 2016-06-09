@@ -1,0 +1,92 @@
+@font-face {
+  font-family: IkaLight;
+  src: url('../font/Ikaros-Light.otf');
+}
+@font-face {
+  font-family: Ikaros;
+  src: url('../font/Ikaros-Regular.otf');
+}
+body {
+  overflow-x: hidden;
+  background-image: url(../img/backgrounddark.png);
+}
+.menu {
+  background-color: #20768c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  transition: 0.5s;
+  border-bottom: 6px solid #fea00d;
+  font-size: 0.5em;
+  font-family: Ikaros;
+}
+.menu:hover {
+  background-color: #2eaacb;
+  color: black;
+  font-size: 0.2em;
+}
+.links {
+  font-family: Ikaros;
+  color: white;
+  font-size: 2.9vw;
+}
+.homecover {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  padding-left: 0.1em;
+  margin-bottom: vw;
+  background-image: url('../img/homehover.png');
+}
+.home {
+    width: 70px;
+    height: 70px;
+    transition: 0.4s;
+}
+.home:hover {
+  opacity: 0;
+}
+.home img {
+  margin-right: -0.1em;
+}
+.carousel {
+  margin-top: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 68vw;
+  background-color: black;
+}
+.carousel-inner > .item {
+  height: 30vw;
+}
+.small > .smallitem {
+  height: 45vw;
+}
+.carousel-inner img {
+  margin: auto;
+}
+.carousel-inner .item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.controler1 {
+  margin-top: 11vw;
+  margin-left: -23vw;
+}
+.controler2 {
+  margin-top: 11vw;
+  padding-left: 11vw;
+}
+.controler3 {
+  margin-top: 12vw;
+  margin-left: -29vw;
+}
+.controler4 {
+  margin-top: 12vw;
+  margin-left: 6.5vw;
+}

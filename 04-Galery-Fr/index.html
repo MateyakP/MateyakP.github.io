@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="../04-Galery/carousel.js"></script>
+  <script type="text/javascript" src="../04-Galery/carousel-bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="../04-Galery/stylesheet.css">
+  <link href="../img/Logo.png" rel="icon">
+  <title>MATEYAK Paul - Galery</title>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      height: ;
+      margin: auto;
+      width: ;
+      padding: 6vw;
+  }
+  </style>
+  <script>
+  $(document).ready(function(){
+      // Activate Carousel
+      $("#myCarousel").carousel();
+
+      // Enable Carousel Indicators
+      $(".item1").click(function(){
+          $("#myCarousel").carousel(0);
+      });
+      $(".item2").click(function(){
+          $("#myCarousel").carousel(1);
+      });
+      $(".item3").click(function(){
+          $("#myCarousel").carousel(2);
+      });
+      $(".item4").click(function(){
+          $("#myCarousel").carousel(3);
+      });
+
+      // Enable Carousel Controls
+      $(".left").click(function(){
+          $("#myCarousel").carousel("prev");
+      });
+      $(".left").click(function(){
+          $("#myCarousell").carousel("prev");
+      });
+
+      $(".right").click(function(){
+          $("#myCarousel").carousel("next");
+      });
+      $(".right").click(function(){
+          $("#myCarousell").carousel("next");
+      });
+  });
+  </script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <a href="../02-Skills-Fr/index.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">CAPACITÉS</span>
+      </div></a>
+      <a href="../03-Experiences-Fr/index.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">ÉXPÉRIENCE</span>
+      </div></a>
+      <a href="../04-Galery-Fr/index.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">GALERIE</span>
+      </div></a>
+      <a href="../05-Contact-Fr/index.html"><div class="menu col-xs-3 col-sm-3 col-md-3 col col-lg-3">
+        <span class="links">CONTACT</span>
+      </div></a>
+    </div>
+  </div>
+
+  <div class="homecover"><a href="../index.html"><div class="home"><img src="../img/home.png" ></div></a></div>
+
+  <div class="container hidden-xs">
+    <div id="myCarousel" data-interval="0" class="carousel slide">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="img-responsive" src="../img/AC3M4ST3R.png">
+        </div>
+        <div class="item">
+          <img src="../img/KDOT2.gif">
+        </div>
+        <div class="item">
+          <img src="../img/KDOT.gif">
+        </div>
+        <div class="item">
+          <img src="../img/Larkspur-2.png">
+        </div>
+        <div class="item">
+          <img src="../img/LilMike.gif">
+        </div>
+        <div class="item">
+          <img class="img-responsive" src="../img/W.png">
+        </div>
+        <div class="item">
+          <img src="../img/Wiz.gif">
+        </div>
+    </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousell" role="button">
+        <img class="controler1" src="../img/arrow-left.png">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousell" role="button">
+        <img class="controler2" src="../img/arrow-right.png">
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+<div class="container visible-xs">
+  <div id="myCarousell" data-interval="0" class="carousel slide">
+    <div class="carousel-inner small" role="listbox">
+      <div class="item smallitem active">
+        <img src="../img/AC3M4ST3R.png">
+      </div>
+      <div class="item smallitem">
+        <img src="../img/KDOT2.gif">
+      </div>
+      <div class="item smallitem">
+        <img src="../img/KDOT.gif">
+      </div>
+      <div class="item smallitem">
+        <img src="../img/Larkspur-2.png">
+      </div>
+      <div class="item smallitem">
+        <img src="../img/LilMike.gif">
+      </div>
+      <div class="item smallitem">
+        <img src="../img/W.png">
+      </div>
+      <div class="item smallitem">
+        <img src="../img/Wiz.gif">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousell" role="button">
+      <img class="controler3" src="../img/arrow-left.png">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousell" role="button">
+      <img class="controler4" src="../img/arrow-right.png">
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</body>
+</html>
